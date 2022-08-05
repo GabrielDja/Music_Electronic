@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "music_electronic:blocks/ncs_block_bottom",
+    "up": "music_electronic:blocks/ncs_block_top",
+    "north": "music_electronic:blocks/ncs_block_side",
+    "east": "music_electronic:blocks/ncs_block_side",
+    "south": "music_electronic:blocks/ncs_block_side",
+    "west": "music_electronic:blocks/ncs_block_side",
+    "particle": "music_electronic:blocks/ncs_block_bottom"
+  }
+}

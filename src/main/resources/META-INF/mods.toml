@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="music_electronic"
+version="1.2.2"
+displayName="Music Electronic"
+credits="NCS and GabrielDja"
+displayURL="https://gabrieldjalayer.wixsite.com/gabrieldja-gaming-yt"
+logoFile="logo.png"
+authors="GabrielDja [ 2020 - 2022 ]"
+description='''
+Add lots of NCS music to Minecraft!!!
+'''
+
+[[dependencies.music_electronic]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

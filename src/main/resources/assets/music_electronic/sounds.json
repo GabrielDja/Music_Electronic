@@ -1,0 +1,209 @@
+{
+  "feeling_cajama-and-tisoki": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:tisoki__cajama_-_feelings_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "no-rival_alaina-cross_maestro-chives_egzod": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:egzod__maestro_chives__alaina_cross_-_no_rival_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "champions_donna--tella_lunaar_elektronomia": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:elektronomia_x_lunaar_x_donna_tella_-_champions_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "running-away_perk-pietrek_abstrakt_shiah-maisel": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "music_electronic:shiah_maisel_abstrakt_perk_pietrek_-_running_away_ncs_release",
+        "stream": false
+      }
+    ]
+  },
+  "what-the-hell_johnning": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:johnning_-_what_the_hell_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "haunted-hause_noeni": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:neoni_-_haunted_house_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "let-me-go_jimmy-rivler_max-vermeulen_almost-weekend": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:almost_weekend__max_vermeulen_-_let_me_go_ft._jimmy_rivler_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "come-up_dwonji": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:dwonji_-_come_up_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "slow-down_shiah-maisel_jim-yosef": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:jim_yosef__shiah_maisel_-_slow_down_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "news-to-me_too-martian_shiah-maisel_nct": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:nct_shiah_maisel__too_martian_-_news_to_me_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "vision-pt-ii_she-is-jules_lost-sky": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:lost_sky_-_vision_pt._ii_feat._she_is_jules_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "invincible-pt-ii_sendi-hoxha_deaf-kev": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:deaf_kev_-_invincible_pt._ii_feat._sendi_hoxha_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "heartless_domastic_rudelies_vosai_jagsy_magnus_facading_other": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:jonth_tom_wilson_facading_magnus_jagsy_vosai_rudelies__domastic_-_heartless_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "this-time_molly-ann_tim-beeren_izecold_diviners_caravn": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:diviners_izecold_tim_beeren_-_this_time_ft._crvn__molly_ann_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "take-me-away_natsumi": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:track_natsumi_-_take_me_away_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "chasing-stars_star-seed": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:star_seed_-_chasing_stars_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "band-aid_halvorsen": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:halvorsen_-_band-aid_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "horizon_glnna_blosso_slippy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:slippy__blosso_-_horizon_back_to_life_feat._glnna_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "freefalling_facading": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:facading_-_freefalling_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "healing_moe-aly_clarx": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:clarx__moe_aly_-_healing_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "where-it-all-began_danyka-nadeau_electro-light": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:electro-light_-_where_it_all_began_feat._danyka_nadeau_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "fire_brook-xiao_rachel-horter": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:brook_xiao_-_fire_feat._rachel_horter_ncs_release",
+        "stream": true
+      }
+    ]
+  },
+  "live-a-lie_andreas-stone_egzod-rival": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:rival_x_egzod_-_live_a_lie_ft._andreas_stone_ncs_release",
+        "stream": true
+      }
+    ]
+  }
+}
