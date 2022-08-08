@@ -13,8 +13,8 @@ import net.minecraft.core.BlockPos;
 
 import net.gabrieldja.music.world.inventory.MusicListPage6Menu;
 import net.gabrieldja.music.procedures.SwitchMusicListToCreditProcedure;
+import net.gabrieldja.music.procedures.SwitchMusicListPage6ToMusicListPage7Procedure;
 import net.gabrieldja.music.procedures.SwitchMusicListPage6ToMusicListPage5Procedure;
-import net.gabrieldja.music.procedures.SwitchMusicListDernierePageToMusicListPage1Procedure;
 import net.gabrieldja.music.procedures.StopMusicProcedure;
 import net.gabrieldja.music.procedures.MusicListPlayWhereItAllBeganProcedure;
 import net.gabrieldja.music.procedures.MusicListPlayLiveALieProcedure;
@@ -100,7 +100,7 @@ public class MusicListPage6ButtonMessage {
 		}
 		if (buttonID == 7) {
 
-			SwitchMusicListDernierePageToMusicListPage1Procedure.execute(world, x, y, z, entity);
+			SwitchMusicListPage6ToMusicListPage7Procedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 8) {
 

@@ -37,7 +37,7 @@ public class CreditPage2Screen extends AbstractContainerScreen<CreditPage2Menu> 
 		this.imageHeight = 170;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("music_electronic:textures/credit_page_2.png");
+	private static final ResourceLocation texture = new ResourceLocation("music_electronic:textures/screens/credit_page_2.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {

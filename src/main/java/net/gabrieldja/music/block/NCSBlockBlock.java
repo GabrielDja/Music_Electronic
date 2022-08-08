@@ -4,6 +4,7 @@ package net.gabrieldja.music.block;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -18,6 +19,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.gabrieldja.music.procedures.NCSBlockQuandLeBlocEstDetruitParUnJoueurProcedure;
 import net.gabrieldja.music.procedures.NCSBlockLorsDunClicDroitSurLeBlocProcedure;
 
 import java.util.List;
@@ -46,6 +48,13 @@ public class NCSBlockBlock extends Block {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+		NCSBlockQuandLeBlocEstDetruitParUnJoueurProcedure.execute(entity);
+		return retval;
 	}
 
 	@Override

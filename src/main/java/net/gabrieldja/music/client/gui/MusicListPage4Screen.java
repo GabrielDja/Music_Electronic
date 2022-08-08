@@ -37,7 +37,7 @@ public class MusicListPage4Screen extends AbstractContainerScreen<MusicListPage4
 		this.imageHeight = 200;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("music_electronic:textures/music_list_page_4.png");
+	private static final ResourceLocation texture = new ResourceLocation("music_electronic:textures/screens/music_list_page_4.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -78,7 +78,7 @@ public class MusicListPage4Screen extends AbstractContainerScreen<MusicListPage4
 		this.font.draw(poseStack, "This Time", 63, 78, -16777216);
 		this.font.draw(poseStack, "Take Me Away", 63, 105, -16777216);
 		this.font.draw(poseStack, "Chasing Stars", 63, 132, -16777216);
-		this.font.draw(poseStack, "4 / 6", 9, 177, -16777216);
+		this.font.draw(poseStack, "4 / 7", 9, 177, -16777216);
 	}
 
 	@Override

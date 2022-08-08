@@ -205,5 +205,14 @@
         "stream": true
       }
     ]
+  },
+  "bot-fight_everen-maxwell": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:everen_maxwell_-_bot_fight_ncs_release",
+        "stream": true
+      }
+    ]
   }
 }

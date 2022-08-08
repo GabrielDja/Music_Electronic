@@ -32,7 +32,7 @@
 	</classpathentry>
 	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
-	<classpathentry sourcepath="C:/Users/gabri/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar" kind="lib" path="C:/Users/gabri/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2.jar">
+	<classpathentry sourcepath="C:/Users/gabri/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-sources.jar" kind="lib" path="C:/Users/gabri/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.1.0_mapped_official_1.18.2/forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -432,7 +432,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/gabri/.mcreator/gradle/caches/modules-2/files-2.1/cpw.mods/securejarhandler/1.0.4/8acb78561c1fce91ec6b0ee7fd15b2b266f25a9e/securejarhandler-1.0.4-sources.jar" kind="lib" path="C:/Users/gabri/.mcreator/gradle/caches/modules-2/files-2.1/cpw.mods/securejarhandler/1.0.4/c227fa8b4391f197450531c183c605e0aaa4a053/securejarhandler-1.0.4.jar">
+	<classpathentry sourcepath="C:/Users/gabri/.mcreator/gradle/caches/modules-2/files-2.1/cpw.mods/securejarhandler/1.0.5/b86847ab2ec11425b108f634ae2fac560c2f29fd/securejarhandler-1.0.5-sources.jar" kind="lib" path="C:/Users/gabri/.mcreator/gradle/caches/modules-2/files-2.1/cpw.mods/securejarhandler/1.0.5/b21c073ef6d2bcd50bb0b1b967eac84e99eeb8fd/securejarhandler-1.0.5.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>

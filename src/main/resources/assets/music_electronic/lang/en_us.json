@@ -12,9 +12,11 @@
   "subtitles.come-up_dwonji": "",
   "item.music_electronic.come_up.desc": "Dwonji - COME UP [ NCS ]",
   "item.music_electronic.let_me_go.desc": "Jimmy Rivler, Max Vermeulen, Almost Weekend - Let Me Go [ NCS ]",
+  "subtitles.bot-fight_everen-maxwell": "",
   "item.music_electronic.what_the_hell": "WHAT THE HELL",
   "item.music_electronic.feeling": "Feeling",
   "subtitles.band-aid_halvorsen": "",
+  "item.music_electronic.bot_fight.desc": "Everen Maxwell [ NCS ]",
   "item.music_electronic.news_to_me.desc": "Too Martian, Shiah Maisel, NCT - News To Me [ NCS ]",
   "item.music_electronic.champions.desc": "Donna Tella, Lunaar, Elektronomia - Champions [ NCS ]",
   "subtitles.healing_moe-aly_clarx": "",
@@ -68,6 +70,7 @@
   "subtitles.no-rival_alaina-cross_maestro-chives_egzod": "",
   "item.music_electronic.champions": "Champions",
   "item.music_electronic.slow_down": "Slow Down",
+  "item.music_electronic.bot_fight": "Bot Fight",
   "itemGroup.tabelectronic": "Electronic - Epic",
   "item.music_electronic.running_away": "Running Away"
 }

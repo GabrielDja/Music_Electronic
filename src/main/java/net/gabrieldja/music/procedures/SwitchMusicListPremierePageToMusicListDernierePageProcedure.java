@@ -14,7 +14,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.gabrieldja.music.world.inventory.MusicListPage6Menu;
+import net.gabrieldja.music.world.inventory.MusicListPage7Menu;
 
 import io.netty.buffer.Unpooled;
 
@@ -28,12 +28,12 @@ public class SwitchMusicListPremierePageToMusicListDernierePageProcedure {
 				NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
 					@Override
 					public Component getDisplayName() {
-						return new TextComponent("MusicListPage6");
+						return new TextComponent("MusicListPage7");
 					}
 
 					@Override
 					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-						return new MusicListPage6Menu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new MusicListPage7Menu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}

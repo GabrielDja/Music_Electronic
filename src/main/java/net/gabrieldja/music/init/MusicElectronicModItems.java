@@ -35,6 +35,7 @@ import net.gabrieldja.music.item.FeelingItem;
 import net.gabrieldja.music.item.ComeUpItem;
 import net.gabrieldja.music.item.ChasingStarsItem;
 import net.gabrieldja.music.item.ChampionsItem;
+import net.gabrieldja.music.item.BotFightItem;
 import net.gabrieldja.music.item.BandAidItem;
 import net.gabrieldja.music.MusicElectronicMod;
 
@@ -64,6 +65,7 @@ public class MusicElectronicModItems {
 	public static final RegistryObject<Item> WHERE_IT_ALL_BEGAN = REGISTRY.register("where_it_all_began", () -> new WhereItAllBeganItem());
 	public static final RegistryObject<Item> FIRE = REGISTRY.register("fire", () -> new FireItem());
 	public static final RegistryObject<Item> LIVE_A_LIE = REGISTRY.register("live_a_lie", () -> new LiveALieItem());
+	public static final RegistryObject<Item> BOT_FIGHT = REGISTRY.register("bot_fight", () -> new BotFightItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

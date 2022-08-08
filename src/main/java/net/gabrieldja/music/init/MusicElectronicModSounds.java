@@ -64,6 +64,8 @@ public class MusicElectronicModSounds {
 				new SoundEvent(new ResourceLocation("music_electronic", "fire_brook-xiao_rachel-horter")));
 		REGISTRY.put(new ResourceLocation("music_electronic", "live-a-lie_andreas-stone_egzod-rival"),
 				new SoundEvent(new ResourceLocation("music_electronic", "live-a-lie_andreas-stone_egzod-rival")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "bot-fight_everen-maxwell"),
+				new SoundEvent(new ResourceLocation("music_electronic", "bot-fight_everen-maxwell")));
 	}
 
 	@SubscribeEvent
