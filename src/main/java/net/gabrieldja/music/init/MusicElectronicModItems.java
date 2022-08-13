@@ -16,12 +16,14 @@ import net.minecraft.world.item.BlockItem;
 import net.gabrieldja.music.item.WhereItAllBeganItem;
 import net.gabrieldja.music.item.WhatTheHellItem;
 import net.gabrieldja.music.item.VisionPtIIItem;
+import net.gabrieldja.music.item.TrapNationLogoItem;
 import net.gabrieldja.music.item.ThisTimeItem;
 import net.gabrieldja.music.item.TakeMeAwayItem;
 import net.gabrieldja.music.item.SlowDownItem;
 import net.gabrieldja.music.item.RunningAwayItem;
 import net.gabrieldja.music.item.NoRivalItem;
 import net.gabrieldja.music.item.NewsToMeItem;
+import net.gabrieldja.music.item.NCSLogoItem;
 import net.gabrieldja.music.item.LiveALieItem;
 import net.gabrieldja.music.item.LetMeGoItem;
 import net.gabrieldja.music.item.InvinciblePtIIItem;
@@ -66,6 +68,9 @@ public class MusicElectronicModItems {
 	public static final RegistryObject<Item> FIRE = REGISTRY.register("fire", () -> new FireItem());
 	public static final RegistryObject<Item> LIVE_A_LIE = REGISTRY.register("live_a_lie", () -> new LiveALieItem());
 	public static final RegistryObject<Item> BOT_FIGHT = REGISTRY.register("bot_fight", () -> new BotFightItem());
+	public static final RegistryObject<Item> NCS_LOGO = REGISTRY.register("ncs_logo", () -> new NCSLogoItem());
+	public static final RegistryObject<Item> TRAP_NATION_LOGO = REGISTRY.register("trap_nation_logo", () -> new TrapNationLogoItem());
+	public static final RegistryObject<Item> TRAP_NATION_BLOCK = block(MusicElectronicModBlocks.TRAP_NATION_BLOCK, CreativeModeTab.TAB_DECORATIONS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

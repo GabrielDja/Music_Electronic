@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.gabrieldja.music.client.gui.TrapNationMusicListScreen;
 import net.gabrieldja.music.client.gui.MusicListScreen;
 import net.gabrieldja.music.client.gui.MusicListPage7Screen;
 import net.gabrieldja.music.client.gui.MusicListPage6Screen;
@@ -39,6 +40,7 @@ public class MusicElectronicModScreens {
 			MenuScreens.register(MusicElectronicModMenus.CREDIT_PAGE_4, CreditPage4Screen::new);
 			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_6, MusicListPage6Screen::new);
 			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_7, MusicListPage7Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST, TrapNationMusicListScreen::new);
 		});
 	}
 }

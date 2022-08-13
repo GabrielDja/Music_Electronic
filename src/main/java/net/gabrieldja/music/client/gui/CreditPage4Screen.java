@@ -79,7 +79,7 @@ public class CreditPage4Screen extends AbstractContainerScreen<CreditPage4Menu> 
 		this.font.draw(poseStack, "Healing : Moe Aly, Clarx", 14, 54, -16777216);
 		this.font.draw(poseStack, "Where It All Began : Danyka Nadeau, Electro-Light", 14, 72, -16777216);
 		this.font.draw(poseStack, "Live A Lie : Andreas Stone, Egzod, Rival", 14, 90, -16777216);
-		this.font.draw(poseStack, "https://ncs.io/music", 5, 153, -16777114);
+		this.font.draw(poseStack, "NCS / TrapNation", 5, 153, -16777114);
 		this.font.draw(poseStack, "Bot Fight : Everen Maxwell", 14, 108, -16777216);
 		this.font.draw(poseStack, "...", 14, 126, -16777216);
 	}

@@ -12,6 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import net.gabrieldja.music.world.inventory.TrapNationMusicListMenu;
 import net.gabrieldja.music.world.inventory.MusicListPage7Menu;
 import net.gabrieldja.music.world.inventory.MusicListPage6Menu;
 import net.gabrieldja.music.world.inventory.MusicListPage5Menu;
@@ -50,6 +51,8 @@ public class MusicElectronicModMenus {
 			(id, inv, extraData) -> new MusicListPage6Menu(id, inv, extraData));
 	public static final MenuType<MusicListPage7Menu> MUSIC_LIST_PAGE_7 = register("music_list_page_7",
 			(id, inv, extraData) -> new MusicListPage7Menu(id, inv, extraData));
+	public static final MenuType<TrapNationMusicListMenu> TRAP_NATION_MUSIC_LIST = register("trap_nation_music_list",
+			(id, inv, extraData) -> new TrapNationMusicListMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

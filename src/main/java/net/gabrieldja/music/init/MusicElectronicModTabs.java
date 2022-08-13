@@ -7,18 +7,18 @@ package net.gabrieldja.music.init;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
 public class MusicElectronicModTabs {
 	public static CreativeModeTab TAB_ELECTRONIC;
+	public static CreativeModeTab TAB_TRAP_NATION;
 
 	public static void load() {
 		TAB_ELECTRONIC = new CreativeModeTab("tabelectronic") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(Items.MUSIC_DISC_WARD);
+				return new ItemStack(MusicElectronicModItems.NCS_LOGO.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -26,5 +26,16 @@ public class MusicElectronicModTabs {
 				return true;
 			}
 		}.setBackgroundSuffix("item_search.png");
+		TAB_TRAP_NATION = new CreativeModeTab("tabtrap_nation") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(MusicElectronicModItems.TRAP_NATION_LOGO.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
 	}
 }

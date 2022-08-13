@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "music_electronic:ncs_block"
+    "music_electronic:ncs_block",
+    "music_electronic:trap_nation_block"
   ]
 }

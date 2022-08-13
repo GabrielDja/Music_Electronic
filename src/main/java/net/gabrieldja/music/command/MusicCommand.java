@@ -21,7 +21,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 public class MusicCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("music")
+		event.getDispatcher().register(Commands.literal("ncsmusic")
 
 				.then(Commands.argument("arguments", StringArgumentType.greedyString()).executes(arguments -> {
 					ServerLevel world = arguments.getSource().getLevel();
