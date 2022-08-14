@@ -74,11 +74,15 @@ public class TrapNationMusicListScreen extends AbstractContainerScreen<TrapNatio
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "TrapNation List", 9, 6, -39424);
 		this.font.draw(poseStack, "-----------------", 9, 15, -16777216);
-		this.font.draw(poseStack, "Feeling", 63, 51, -16777216);
-		this.font.draw(poseStack, "No Rival", 63, 78, -16777216);
-		this.font.draw(poseStack, "Champions", 63, 105, -16777216);
-		this.font.draw(poseStack, "Running Away", 63, 132, -16777216);
+		this.font.draw(poseStack, "Arc Second", 63, 51, -16777216);
+		this.font.draw(poseStack, "Its Not Too Late", 63, 78, -16777216);
+		this.font.draw(poseStack, "Moments", 63, 105, -16777216);
+		this.font.draw(poseStack, "CNTRL", 63, 132, -16777216);
 		this.font.draw(poseStack, "1 / 1", 9, 177, -16777216);
+		this.font.draw(poseStack, "(New)", 126, 51, -13408513);
+		this.font.draw(poseStack, "(New)", 153, 78, -13408513);
+		this.font.draw(poseStack, "(New)", 108, 105, -13408513);
+		this.font.draw(poseStack, "(New)", 99, 132, -13408513);
 	}
 
 	@Override

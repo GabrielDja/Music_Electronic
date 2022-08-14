@@ -16,9 +16,6 @@ import net.gabrieldja.music.procedures.SwitchMusicListToCreditProcedure;
 import net.gabrieldja.music.procedures.SwitchMusicListPage5ToMusicListPage6Procedure;
 import net.gabrieldja.music.procedures.SwitchMusicListDernierePageToMusicListPage1Procedure;
 import net.gabrieldja.music.procedures.StopMusicProcedure;
-import net.gabrieldja.music.procedures.MusicListPlayWhereItAllBeganProcedure;
-import net.gabrieldja.music.procedures.MusicListPlayLiveALieProcedure;
-import net.gabrieldja.music.procedures.MusicListPlayFireProcedure;
 import net.gabrieldja.music.procedures.MusicListPlayBotFightProcedure;
 import net.gabrieldja.music.procedures.CloseUIProcedure;
 import net.gabrieldja.music.MusicElectronicMod;
@@ -82,21 +79,9 @@ public class MusicListPage7ButtonMessage {
 
 			CloseUIProcedure.execute(entity);
 		}
-		if (buttonID == 3) {
-
-			MusicListPlayWhereItAllBeganProcedure.execute(world, x, y, z, entity);
-		}
 		if (buttonID == 4) {
 
 			SwitchMusicListToCreditProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 5) {
-
-			MusicListPlayFireProcedure.execute(world, x, y, z, entity);
-		}
-		if (buttonID == 6) {
-
-			MusicListPlayLiveALieProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 7) {
 

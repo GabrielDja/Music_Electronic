@@ -24,8 +24,6 @@ public class MusicElectronicModSounds {
 				new SoundEvent(new ResourceLocation("music_electronic", "no-rival_alaina-cross_maestro-chives_egzod")));
 		REGISTRY.put(new ResourceLocation("music_electronic", "champions_donna--tella_lunaar_elektronomia"),
 				new SoundEvent(new ResourceLocation("music_electronic", "champions_donna--tella_lunaar_elektronomia")));
-		REGISTRY.put(new ResourceLocation("music_electronic", "running-away_perk-pietrek_abstrakt_shiah-maisel"),
-				new SoundEvent(new ResourceLocation("music_electronic", "running-away_perk-pietrek_abstrakt_shiah-maisel")));
 		REGISTRY.put(new ResourceLocation("music_electronic", "what-the-hell_johnning"),
 				new SoundEvent(new ResourceLocation("music_electronic", "what-the-hell_johnning")));
 		REGISTRY.put(new ResourceLocation("music_electronic", "haunted-hause_noeni"),
@@ -66,6 +64,16 @@ public class MusicElectronicModSounds {
 				new SoundEvent(new ResourceLocation("music_electronic", "live-a-lie_andreas-stone_egzod-rival")));
 		REGISTRY.put(new ResourceLocation("music_electronic", "bot-fight_everen-maxwell"),
 				new SoundEvent(new ResourceLocation("music_electronic", "bot-fight_everen-maxwell")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "arc-second_slumberjack_tinykvt"),
+				new SoundEvent(new ResourceLocation("music_electronic", "arc-second_slumberjack_tinykvt")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "its-not-too-late_kaivon"),
+				new SoundEvent(new ResourceLocation("music_electronic", "its-not-too-late_kaivon")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "moments_gioni"),
+				new SoundEvent(new ResourceLocation("music_electronic", "moments_gioni")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "running-away_perk-pietrek_abstrakt_shiah-maisel"),
+				new SoundEvent(new ResourceLocation("music_electronic", "running-away_perk-pietrek_abstrakt_shiah-maisel")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "cntrl_paper-idol"),
+				new SoundEvent(new ResourceLocation("music_electronic", "cntrl_paper-idol")));
 	}
 
 	@SubscribeEvent

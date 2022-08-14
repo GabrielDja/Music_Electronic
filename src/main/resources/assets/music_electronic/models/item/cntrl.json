@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "music_electronic:items/ab67616d00001e0269fc285584f5e909682e1c94"
+  }
+}

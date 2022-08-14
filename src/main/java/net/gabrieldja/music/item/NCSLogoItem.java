@@ -7,7 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 
-import net.gabrieldja.music.procedures.LogoClearActionProcedure;
+import net.gabrieldja.music.procedures.LogoClearAutomationProcedure;
 
 public class NCSLogoItem extends Item {
 	public NCSLogoItem() {
@@ -17,6 +17,6 @@ public class NCSLogoItem extends Item {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		LogoClearActionProcedure.execute(entity);
+		LogoClearAutomationProcedure.execute(entity);
 	}
 }

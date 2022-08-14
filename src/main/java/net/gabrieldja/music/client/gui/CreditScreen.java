@@ -79,7 +79,7 @@ public class CreditScreen extends AbstractContainerScreen<CreditMenu> {
 		this.font.draw(poseStack, "No Rival : Alaina Cross, Maestro Chives, Egzod", 14, 54, -16777216);
 		this.font.draw(poseStack, "Champions : Donna Tella, Lunaar, Elektronomia", 14, 72, -16777216);
 		this.font.draw(poseStack, "Running Away : Perk Pietrek, Abstrakt, Shiah Maisel", 14, 90, -16777216);
-		this.font.draw(poseStack, "NCS / TrapNation", 5, 153, -16777114);
+		this.font.draw(poseStack, "NCS", 5, 153, -16777114);
 		this.font.draw(poseStack, "WHAT THE HELL : Johnning", 14, 108, -16777216);
 		this.font.draw(poseStack, "Haunted House : Noeni", 14, 126, -16777216);
 	}

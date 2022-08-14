@@ -72,7 +72,7 @@ public class MusicListPage6Screen extends AbstractContainerScreen<MusicListPage6
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Music List", 9, 6, -39424);
+		this.font.draw(poseStack, "NCS List", 9, 6, -39424);
 		this.font.draw(poseStack, "-----------------", 9, 15, -16777216);
 		this.font.draw(poseStack, "Band-Aid", 63, 51, -16777216);
 		this.font.draw(poseStack, "Where It All Began", 63, 78, -16777216);

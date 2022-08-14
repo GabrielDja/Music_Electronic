@@ -24,8 +24,10 @@ import net.gabrieldja.music.item.RunningAwayItem;
 import net.gabrieldja.music.item.NoRivalItem;
 import net.gabrieldja.music.item.NewsToMeItem;
 import net.gabrieldja.music.item.NCSLogoItem;
+import net.gabrieldja.music.item.MomentsItem;
 import net.gabrieldja.music.item.LiveALieItem;
 import net.gabrieldja.music.item.LetMeGoItem;
+import net.gabrieldja.music.item.ItsNotTooLateItem;
 import net.gabrieldja.music.item.InvinciblePtIIItem;
 import net.gabrieldja.music.item.HorizonItem;
 import net.gabrieldja.music.item.HeartlessItem;
@@ -37,8 +39,10 @@ import net.gabrieldja.music.item.FeelingItem;
 import net.gabrieldja.music.item.ComeUpItem;
 import net.gabrieldja.music.item.ChasingStarsItem;
 import net.gabrieldja.music.item.ChampionsItem;
+import net.gabrieldja.music.item.CNTRLItem;
 import net.gabrieldja.music.item.BotFightItem;
 import net.gabrieldja.music.item.BandAidItem;
+import net.gabrieldja.music.item.ArcSecondItem;
 import net.gabrieldja.music.MusicElectronicMod;
 
 public class MusicElectronicModItems {
@@ -71,6 +75,10 @@ public class MusicElectronicModItems {
 	public static final RegistryObject<Item> NCS_LOGO = REGISTRY.register("ncs_logo", () -> new NCSLogoItem());
 	public static final RegistryObject<Item> TRAP_NATION_LOGO = REGISTRY.register("trap_nation_logo", () -> new TrapNationLogoItem());
 	public static final RegistryObject<Item> TRAP_NATION_BLOCK = block(MusicElectronicModBlocks.TRAP_NATION_BLOCK, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> ARC_SECOND = REGISTRY.register("arc_second", () -> new ArcSecondItem());
+	public static final RegistryObject<Item> ITS_NOT_TOO_LATE = REGISTRY.register("its_not_too_late", () -> new ItsNotTooLateItem());
+	public static final RegistryObject<Item> MOMENTS = REGISTRY.register("moments", () -> new MomentsItem());
+	public static final RegistryObject<Item> CNTRL = REGISTRY.register("cntrl", () -> new CNTRLItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

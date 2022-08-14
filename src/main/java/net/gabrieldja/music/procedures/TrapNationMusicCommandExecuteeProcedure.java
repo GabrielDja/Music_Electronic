@@ -14,7 +14,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.gabrieldja.music.world.inventory.MusicListMenu;
+import net.gabrieldja.music.world.inventory.TrapNationMusicListMenu;
 
 import io.netty.buffer.Unpooled;
 
@@ -28,12 +28,12 @@ public class TrapNationMusicCommandExecuteeProcedure {
 				NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
 					@Override
 					public Component getDisplayName() {
-						return new TextComponent("MusicList");
+						return new TextComponent("TrapNationMusicList");
 					}
 
 					@Override
 					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-						return new MusicListMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new TrapNationMusicListMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}

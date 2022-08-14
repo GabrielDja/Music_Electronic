@@ -12,12 +12,12 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.gabrieldja.music.world.inventory.TrapNationMusicListMenu;
-import net.gabrieldja.music.procedures.SwitchMusicListToCreditProcedure;
+import net.gabrieldja.music.procedures.TrapNationListPlayMomentsProcedure;
+import net.gabrieldja.music.procedures.TrapNationListPlayItsNotTooLateProcedure;
+import net.gabrieldja.music.procedures.TrapNationListPlayCNTRLProcedure;
+import net.gabrieldja.music.procedures.TrapNationListPlayArcSecondProcedure;
+import net.gabrieldja.music.procedures.SwitchTrapNationListToTrapNationCreditProcedure;
 import net.gabrieldja.music.procedures.StopMusicProcedure;
-import net.gabrieldja.music.procedures.MusicListPlayRunningAwayProcedure;
-import net.gabrieldja.music.procedures.MusicListPlayNoRivalProcedure;
-import net.gabrieldja.music.procedures.MusicListPlayFeelingProcedure;
-import net.gabrieldja.music.procedures.MusicListPlayChampionsProcedure;
 import net.gabrieldja.music.procedures.CloseUIProcedure;
 import net.gabrieldja.music.MusicElectronicMod;
 
@@ -70,7 +70,7 @@ public class TrapNationMusicListButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			MusicListPlayFeelingProcedure.execute(world, x, y, z, entity);
+			TrapNationListPlayArcSecondProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 1) {
 
@@ -82,19 +82,19 @@ public class TrapNationMusicListButtonMessage {
 		}
 		if (buttonID == 3) {
 
-			MusicListPlayNoRivalProcedure.execute(world, x, y, z, entity);
+			TrapNationListPlayItsNotTooLateProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
 
-			SwitchMusicListToCreditProcedure.execute(world, x, y, z, entity);
+			SwitchTrapNationListToTrapNationCreditProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 5) {
 
-			MusicListPlayChampionsProcedure.execute(world, x, y, z, entity);
+			TrapNationListPlayMomentsProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 6) {
 
-			MusicListPlayRunningAwayProcedure.execute(world, x, y, z, entity);
+			TrapNationListPlayCNTRLProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

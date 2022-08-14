@@ -79,7 +79,7 @@ public class CreditPage3Screen extends AbstractContainerScreen<CreditPage3Menu> 
 		this.font.draw(poseStack, "This Time : Molly Ann, Tim Beeren, IZECOLD, Diviners", 14, 54, -16777216);
 		this.font.draw(poseStack, "Take Me Away : NATSUMI", 14, 72, -16777216);
 		this.font.draw(poseStack, "Chasing Stars : STAR SEED", 14, 90, -16777216);
-		this.font.draw(poseStack, "NCS / TrapNation", 5, 153, -16777114);
+		this.font.draw(poseStack, "NCS", 5, 153, -16777114);
 		this.font.draw(poseStack, "Band-Aid : Halvorsen", 14, 108, -16777216);
 		this.font.draw(poseStack, "Horizon : GLNNA, Blosso, Slippy", 14, 126, -16777216);
 		this.font.draw(poseStack, ", Facading, Tom Wilson, Jonth", 14, 45, -16777216);

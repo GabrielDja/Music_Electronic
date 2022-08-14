@@ -79,7 +79,7 @@ public class CreditPage2Screen extends AbstractContainerScreen<CreditPage2Menu> 
 		this.font.draw(poseStack, "Come Up : Dwonji", 14, 54, -16777216);
 		this.font.draw(poseStack, "Slow Down : Shiah Maisel, Jim Yosef", 14, 72, -16777216);
 		this.font.draw(poseStack, "News To Me : Too Martian, Shiah Maisel, NCT", 14, 90, -16777216);
-		this.font.draw(poseStack, "NCS / TrapNation", 5, 153, -16777114);
+		this.font.draw(poseStack, "NCS", 5, 153, -16777114);
 		this.font.draw(poseStack, "Vision pt. II : She Is Jules, Lost Sky", 14, 108, -16777216);
 		this.font.draw(poseStack, "Invincible Pt. II : Sendi Hoxha, DEAF KEV", 14, 126, -16777216);
 	}
