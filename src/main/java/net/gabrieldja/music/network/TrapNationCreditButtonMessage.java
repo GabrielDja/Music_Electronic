@@ -12,6 +12,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.gabrieldja.music.world.inventory.TrapNationCreditMenu;
+import net.gabrieldja.music.procedures.SwitchTrapNationCreditToTrapNationCreditPage2Procedure;
 import net.gabrieldja.music.procedures.CloseUIProcedure;
 import net.gabrieldja.music.MusicElectronicMod;
 
@@ -62,9 +63,17 @@ public class TrapNationCreditButtonMessage {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.hasChunkAt(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+
+			SwitchTrapNationCreditToTrapNationCreditPage2Procedure.execute(world, x, y, z, entity);
+		}
 		if (buttonID == 1) {
 
 			CloseUIProcedure.execute(entity);
+		}
+		if (buttonID == 2) {
+
+			SwitchTrapNationCreditToTrapNationCreditPage2Procedure.execute(world, x, y, z, entity);
 		}
 	}
 

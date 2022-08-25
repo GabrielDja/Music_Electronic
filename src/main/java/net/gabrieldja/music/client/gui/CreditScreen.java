@@ -74,7 +74,7 @@ public class CreditScreen extends AbstractContainerScreen<CreditMenu> {
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Mod Created by GabrielDja", 77, 9, -16776961);
 		this.font.draw(poseStack, "Feeling : Cajama, Tisoki", 14, 36, -16777216);
-		this.font.draw(poseStack, "1 / 4", 140, 153, -16777216);
+		this.font.draw(poseStack, "1 / 5", 140, 153, -16777216);
 		this.font.draw(poseStack, "----------------------------------", 50, 18, -16777216);
 		this.font.draw(poseStack, "No Rival : Alaina Cross, Maestro Chives, Egzod", 14, 54, -16777216);
 		this.font.draw(poseStack, "Champions : Donna Tella, Lunaar, Elektronomia", 14, 72, -16777216);

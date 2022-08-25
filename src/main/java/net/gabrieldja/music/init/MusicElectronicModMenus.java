@@ -12,7 +12,10 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import net.gabrieldja.music.world.inventory.TrapNationMusicListPage3Menu;
 import net.gabrieldja.music.world.inventory.TrapNationMusicListMenu;
+import net.gabrieldja.music.world.inventory.TrapNationMusicList2Menu;
+import net.gabrieldja.music.world.inventory.TrapNationCreditPage2Menu;
 import net.gabrieldja.music.world.inventory.TrapNationCreditMenu;
 import net.gabrieldja.music.world.inventory.MusicListPage7Menu;
 import net.gabrieldja.music.world.inventory.MusicListPage6Menu;
@@ -21,6 +24,7 @@ import net.gabrieldja.music.world.inventory.MusicListPage4Menu;
 import net.gabrieldja.music.world.inventory.MusicListPage3Menu;
 import net.gabrieldja.music.world.inventory.MusicListPage2Menu;
 import net.gabrieldja.music.world.inventory.MusicListMenu;
+import net.gabrieldja.music.world.inventory.CreditPage5Menu;
 import net.gabrieldja.music.world.inventory.CreditPage4Menu;
 import net.gabrieldja.music.world.inventory.CreditPage3Menu;
 import net.gabrieldja.music.world.inventory.CreditPage2Menu;
@@ -56,6 +60,14 @@ public class MusicElectronicModMenus {
 			(id, inv, extraData) -> new TrapNationMusicListMenu(id, inv, extraData));
 	public static final MenuType<TrapNationCreditMenu> TRAP_NATION_CREDIT = register("trap_nation_credit",
 			(id, inv, extraData) -> new TrapNationCreditMenu(id, inv, extraData));
+	public static final MenuType<CreditPage5Menu> CREDIT_PAGE_5 = register("credit_page_5",
+			(id, inv, extraData) -> new CreditPage5Menu(id, inv, extraData));
+	public static final MenuType<TrapNationMusicList2Menu> TRAP_NATION_MUSIC_LIST_2 = register("trap_nation_music_list_2",
+			(id, inv, extraData) -> new TrapNationMusicList2Menu(id, inv, extraData));
+	public static final MenuType<TrapNationCreditPage2Menu> TRAP_NATION_CREDIT_PAGE_2 = register("trap_nation_credit_page_2",
+			(id, inv, extraData) -> new TrapNationCreditPage2Menu(id, inv, extraData));
+	public static final MenuType<TrapNationMusicListPage3Menu> TRAP_NATION_MUSIC_LIST_PAGE_3 = register("trap_nation_music_list_page_3",
+			(id, inv, extraData) -> new TrapNationMusicListPage3Menu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

@@ -13,18 +13,24 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.gabrieldja.music.item.YesterdayItem;
 import net.gabrieldja.music.item.WhereItAllBeganItem;
 import net.gabrieldja.music.item.WhatTheHellItem;
 import net.gabrieldja.music.item.VisionPtIIItem;
 import net.gabrieldja.music.item.TrapNationLogoItem;
 import net.gabrieldja.music.item.ThisTimeItem;
 import net.gabrieldja.music.item.TakeMeAwayItem;
+import net.gabrieldja.music.item.SymbolismPtIIIItem;
+import net.gabrieldja.music.item.SurviveItem;
+import net.gabrieldja.music.item.StreamItem;
 import net.gabrieldja.music.item.SlowDownItem;
 import net.gabrieldja.music.item.RunningAwayItem;
+import net.gabrieldja.music.item.NowInfinityItem;
 import net.gabrieldja.music.item.NoRivalItem;
 import net.gabrieldja.music.item.NewsToMeItem;
 import net.gabrieldja.music.item.NCSLogoItem;
 import net.gabrieldja.music.item.MomentsItem;
+import net.gabrieldja.music.item.MiyakoItem;
 import net.gabrieldja.music.item.LiveALieItem;
 import net.gabrieldja.music.item.LetMeGoItem;
 import net.gabrieldja.music.item.ItsNotTooLateItem;
@@ -40,8 +46,10 @@ import net.gabrieldja.music.item.ComeUpItem;
 import net.gabrieldja.music.item.ChasingStarsItem;
 import net.gabrieldja.music.item.ChampionsItem;
 import net.gabrieldja.music.item.CNTRLItem;
+import net.gabrieldja.music.item.BothEdgesItem;
 import net.gabrieldja.music.item.BotFightItem;
 import net.gabrieldja.music.item.BandAidItem;
+import net.gabrieldja.music.item.AwakeningItem;
 import net.gabrieldja.music.item.ArcSecondItem;
 import net.gabrieldja.music.MusicElectronicMod;
 
@@ -79,6 +87,14 @@ public class MusicElectronicModItems {
 	public static final RegistryObject<Item> ITS_NOT_TOO_LATE = REGISTRY.register("its_not_too_late", () -> new ItsNotTooLateItem());
 	public static final RegistryObject<Item> MOMENTS = REGISTRY.register("moments", () -> new MomentsItem());
 	public static final RegistryObject<Item> CNTRL = REGISTRY.register("cntrl", () -> new CNTRLItem());
+	public static final RegistryObject<Item> SYMBOLISM_PT_III = REGISTRY.register("symbolism_pt_iii", () -> new SymbolismPtIIIItem());
+	public static final RegistryObject<Item> SURVIVE = REGISTRY.register("survive", () -> new SurviveItem());
+	public static final RegistryObject<Item> AWAKENING = REGISTRY.register("awakening", () -> new AwakeningItem());
+	public static final RegistryObject<Item> BOTH_EDGES = REGISTRY.register("both_edges", () -> new BothEdgesItem());
+	public static final RegistryObject<Item> NOW_INFINITY = REGISTRY.register("now_infinity", () -> new NowInfinityItem());
+	public static final RegistryObject<Item> YESTERDAY = REGISTRY.register("yesterday", () -> new YesterdayItem());
+	public static final RegistryObject<Item> STREAM = REGISTRY.register("stream", () -> new StreamItem());
+	public static final RegistryObject<Item> MIYAKO = REGISTRY.register("miyako", () -> new MiyakoItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

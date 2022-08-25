@@ -74,14 +74,14 @@ public class CreditPage4Screen extends AbstractContainerScreen<CreditPage4Menu> 
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Mod Created by GabrielDja", 77, 9, -16776961);
 		this.font.draw(poseStack, "Freefalling : Facading", 14, 36, -16777216);
-		this.font.draw(poseStack, "4 / 4", 140, 153, -16777216);
+		this.font.draw(poseStack, "4 / 5", 140, 153, -16777216);
 		this.font.draw(poseStack, "----------------------------------", 50, 18, -16777216);
 		this.font.draw(poseStack, "Healing : Moe Aly, Clarx", 14, 54, -16777216);
 		this.font.draw(poseStack, "Where It All Began : Danyka Nadeau, Electro-Light", 14, 72, -16777216);
 		this.font.draw(poseStack, "Live A Lie : Andreas Stone, Egzod, Rival", 14, 90, -16777216);
 		this.font.draw(poseStack, "NCS", 5, 153, -16777114);
 		this.font.draw(poseStack, "Bot Fight : Everen Maxwell", 14, 108, -16777216);
-		this.font.draw(poseStack, "...", 14, 126, -16777216);
+		this.font.draw(poseStack, "Symbolism pt.III : Electro-Light", 14, 126, -16777216);
 	}
 
 	@Override

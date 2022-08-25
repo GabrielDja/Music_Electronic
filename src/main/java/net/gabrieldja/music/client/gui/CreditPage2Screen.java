@@ -74,7 +74,7 @@ public class CreditPage2Screen extends AbstractContainerScreen<CreditPage2Menu> 
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Mod Created by GabrielDja", 77, 9, -16776961);
 		this.font.draw(poseStack, "Let Me Go : Jimmy Rivler, Max Vermeulen, Almost Weekend", 14, 36, -16777216);
-		this.font.draw(poseStack, "2 / 4", 140, 153, -16777216);
+		this.font.draw(poseStack, "2 / 5", 140, 153, -16777216);
 		this.font.draw(poseStack, "----------------------------------", 50, 18, -16777216);
 		this.font.draw(poseStack, "Come Up : Dwonji", 14, 54, -16777216);
 		this.font.draw(poseStack, "Slow Down : Shiah Maisel, Jim Yosef", 14, 72, -16777216);

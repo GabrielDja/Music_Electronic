@@ -14,7 +14,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import net.gabrieldja.music.world.inventory.CreditPage4Menu;
+import net.gabrieldja.music.world.inventory.CreditPage5Menu;
 
 import io.netty.buffer.Unpooled;
 
@@ -28,12 +28,12 @@ public class SwitchCreditPremierePageToCreditDernierePageProcedure {
 				NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
 					@Override
 					public Component getDisplayName() {
-						return new TextComponent("CreditPage4");
+						return new TextComponent("CreditPage5");
 					}
 
 					@Override
 					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-						return new CreditPage4Menu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+						return new CreditPage5Menu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 					}
 				}, _bpos);
 			}

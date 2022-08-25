@@ -78,11 +78,7 @@ public class TrapNationMusicListScreen extends AbstractContainerScreen<TrapNatio
 		this.font.draw(poseStack, "Its Not Too Late", 63, 78, -16777216);
 		this.font.draw(poseStack, "Moments", 63, 105, -16777216);
 		this.font.draw(poseStack, "CNTRL", 63, 132, -16777216);
-		this.font.draw(poseStack, "1 / 1", 9, 177, -16777216);
-		this.font.draw(poseStack, "(New)", 126, 51, -13408513);
-		this.font.draw(poseStack, "(New)", 153, 78, -13408513);
-		this.font.draw(poseStack, "(New)", 108, 105, -13408513);
-		this.font.draw(poseStack, "(New)", 99, 132, -13408513);
+		this.font.draw(poseStack, "1 / 3", 9, 177, -16777216);
 	}
 
 	@Override
@@ -138,8 +134,16 @@ public class TrapNationMusicListScreen extends AbstractContainerScreen<TrapNatio
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 162, this.topPos + 168, 30, 20, new TextComponent(">"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListButtonMessage(7, x, y, z));
+				TrapNationMusicListButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 63, this.topPos + 168, 30, 20, new TextComponent("<"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListButtonMessage(8, x, y, z));
+				TrapNationMusicListButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
 		}));
 	}
 }

@@ -74,6 +74,22 @@ public class MusicElectronicModSounds {
 				new SoundEvent(new ResourceLocation("music_electronic", "running-away_perk-pietrek_abstrakt_shiah-maisel")));
 		REGISTRY.put(new ResourceLocation("music_electronic", "cntrl_paper-idol"),
 				new SoundEvent(new ResourceLocation("music_electronic", "cntrl_paper-idol")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "survive_axel-oliver_theboywithspec"),
+				new SoundEvent(new ResourceLocation("music_electronic", "survive_axel-oliver_theboywithspec")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "symbolism-pt-iii_electro-light"),
+				new SoundEvent(new ResourceLocation("music_electronic", "symbolism-pt-iii_electro-light")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "awakening_kaivon"),
+				new SoundEvent(new ResourceLocation("music_electronic", "awakening_kaivon")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "both-edges_juche"),
+				new SoundEvent(new ResourceLocation("music_electronic", "both-edges_juche")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "now-infinity_juche"),
+				new SoundEvent(new ResourceLocation("music_electronic", "now-infinity_juche")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "yesterday_4ura_young-viridii"),
+				new SoundEvent(new ResourceLocation("music_electronic", "yesterday_4ura_young-viridii")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "stream_juche"),
+				new SoundEvent(new ResourceLocation("music_electronic", "stream_juche")));
+		REGISTRY.put(new ResourceLocation("music_electronic", "miyako_juche"),
+				new SoundEvent(new ResourceLocation("music_electronic", "miyako_juche")));
 	}
 
 	@SubscribeEvent

@@ -74,7 +74,7 @@ public class CreditPage3Screen extends AbstractContainerScreen<CreditPage3Menu> 
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Mod Created by GabrielDja", 77, 9, -16776961);
 		this.font.draw(poseStack, "Heartless : Domastic, RudeLies, Vosai, Jagsy, Magnus", 14, 36, -16777216);
-		this.font.draw(poseStack, "3 / 4", 140, 153, -16777216);
+		this.font.draw(poseStack, "3 / 5", 140, 153, -16777216);
 		this.font.draw(poseStack, "----------------------------------", 50, 18, -16777216);
 		this.font.draw(poseStack, "This Time : Molly Ann, Tim Beeren, IZECOLD, Diviners", 14, 54, -16777216);
 		this.font.draw(poseStack, "Take Me Away : NATSUMI", 14, 72, -16777216);

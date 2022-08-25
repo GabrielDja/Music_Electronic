@@ -73,15 +73,15 @@ public class TrapNationCreditScreen extends AbstractContainerScreen<TrapNationCr
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Mod Created by GabrielDja", 77, 9, -16776961);
-		this.font.draw(poseStack, "Feeling : Cajama, Tisoki", 14, 36, -16777216);
-		this.font.draw(poseStack, "1 / 1", 140, 153, -16777216);
+		this.font.draw(poseStack, "Arc Second : SLUMBERJACK & TINYKVT", 14, 36, -16777216);
+		this.font.draw(poseStack, "1 / 2", 140, 153, -16777216);
 		this.font.draw(poseStack, "----------------------------------", 50, 18, -16777216);
-		this.font.draw(poseStack, "No Rival : Alaina Cross, Maestro Chives, Egzod", 14, 54, -16777216);
-		this.font.draw(poseStack, "Champions : Donna Tella, Lunaar, Elektronomia", 14, 72, -16777216);
-		this.font.draw(poseStack, "Running Away : Perk Pietrek, Abstrakt, Shiah Maisel", 14, 90, -16777216);
+		this.font.draw(poseStack, "It's Not Too Late : Kaivon", 14, 54, -16777216);
+		this.font.draw(poseStack, "Moments : Gioni", 14, 72, -16777216);
+		this.font.draw(poseStack, "CNTRL : Paper Idol", 14, 90, -16777216);
 		this.font.draw(poseStack, "TrapNation", 5, 153, -16777114);
-		this.font.draw(poseStack, "...", 14, 108, -16777216);
-		this.font.draw(poseStack, "...", 14, 126, -16777216);
+		this.font.draw(poseStack, "Awakening : Kaivon", 14, 108, -16777216);
+		this.font.draw(poseStack, "Both Edges : Juche", 14, 126, -16777216);
 	}
 
 	@Override
@@ -95,6 +95,10 @@ public class TrapNationCreditScreen extends AbstractContainerScreen<TrapNationCr
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
 		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 144, 30, 20, new TextComponent(">"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationCreditButtonMessage(0, x, y, z));
+				TrapNationCreditButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 9, 30, 20, new TextComponent("x"), e -> {
 			if (true) {
@@ -103,6 +107,10 @@ public class TrapNationCreditScreen extends AbstractContainerScreen<TrapNationCr
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 221, this.topPos + 144, 30, 20, new TextComponent("<"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationCreditButtonMessage(2, x, y, z));
+				TrapNationCreditButtonMessage.handleButtonAction(entity, 2, x, y, z);
+			}
 		}));
 	}
 }

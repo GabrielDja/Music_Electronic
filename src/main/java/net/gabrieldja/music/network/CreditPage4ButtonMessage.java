@@ -12,8 +12,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.gabrieldja.music.world.inventory.CreditPage4Menu;
+import net.gabrieldja.music.procedures.SwitchCreditPage4ToCreditPage5Procedure;
 import net.gabrieldja.music.procedures.SwitchCreditPage4ToCreditPage3Procedure;
-import net.gabrieldja.music.procedures.SwitchCreditDernierePageToCreditPage1Procedure;
 import net.gabrieldja.music.procedures.CloseUIProcedure;
 import net.gabrieldja.music.MusicElectronicMod;
 
@@ -66,7 +66,7 @@ public class CreditPage4ButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			SwitchCreditDernierePageToCreditPage1Procedure.execute(world, x, y, z, entity);
+			SwitchCreditPage4ToCreditPage5Procedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 1) {
 

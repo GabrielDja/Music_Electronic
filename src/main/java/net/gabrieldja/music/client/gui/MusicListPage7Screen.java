@@ -75,11 +75,13 @@ public class MusicListPage7Screen extends AbstractContainerScreen<MusicListPage7
 		this.font.draw(poseStack, "NCS List", 9, 6, -39424);
 		this.font.draw(poseStack, "-----------------", 9, 15, -16777216);
 		this.font.draw(poseStack, "Bot Fight", 63, 51, -16777216);
-		this.font.draw(poseStack, "...", 63, 78, -16777216);
-		this.font.draw(poseStack, "...", 63, 105, -16777216);
-		this.font.draw(poseStack, "...", 63, 132, -16777216);
+		this.font.draw(poseStack, "Symbolism pt.III", 63, 78, -16777216);
+		this.font.draw(poseStack, "Survive", 63, 105, -16777216);
+		this.font.draw(poseStack, "Yesterday", 63, 132, -16777216);
 		this.font.draw(poseStack, "7 / 7", 9, 177, -16777216);
-		this.font.draw(poseStack, "(New)", 117, 51, -13408513);
+		this.font.draw(poseStack, "(New)", 153, 78, -13408513);
+		this.font.draw(poseStack, "(New)", 108, 105, -13408513);
+		this.font.draw(poseStack, "(New)", 117, 132, -13408513);
 	}
 
 	@Override
@@ -111,6 +113,10 @@ public class MusicListPage7Screen extends AbstractContainerScreen<MusicListPage7
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 69, 46, 20, new TextComponent("Play"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListPage7ButtonMessage(3, x, y, z));
+				MusicListPage7ButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 99, this.topPos + 168, 56, 20, new TextComponent("Credit"), e -> {
 			if (true) {
@@ -119,8 +125,16 @@ public class MusicListPage7Screen extends AbstractContainerScreen<MusicListPage7
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 96, 46, 20, new TextComponent("Play"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListPage7ButtonMessage(5, x, y, z));
+				MusicListPage7ButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 123, 46, 20, new TextComponent("Play"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListPage7ButtonMessage(6, x, y, z));
+				MusicListPage7ButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 162, this.topPos + 168, 30, 20, new TextComponent(">"), e -> {
 			if (true) {

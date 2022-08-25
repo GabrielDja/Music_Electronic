@@ -7,31 +7,31 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:stone"
+      "item": "minecraft:deepslate"
     },
     "1": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:lapis_block"
     },
     "2": {
-      "item": "minecraft:stone"
+      "item": "minecraft:deepslate"
     },
     "3": {
-      "item": "minecraft:stone"
+      "item": "minecraft:deepslate"
     },
     "4": {
       "item": "minecraft:jukebox"
     },
     "5": {
-      "item": "minecraft:stone"
+      "item": "minecraft:deepslate"
     },
     "6": {
-      "item": "minecraft:stone"
+      "item": "minecraft:deepslate"
     },
     "7": {
-      "item": "minecraft:stone"
+      "item": "minecraft:deepslate"
     },
     "8": {
-      "item": "minecraft:stone"
+      "item": "minecraft:deepslate"
     }
   },
   "result": {

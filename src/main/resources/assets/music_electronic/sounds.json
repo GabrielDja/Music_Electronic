@@ -250,5 +250,77 @@
         "stream": true
       }
     ]
+  },
+  "survive_axel-oliver_theboywithspec": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:axel-oliver-x-theboywithspec-survive-ncs-release",
+        "stream": true
+      }
+    ]
+  },
+  "symbolism-pt-iii_electro-light": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:electro-light-symbolism-pt-iii-ncs-release",
+        "stream": true
+      }
+    ]
+  },
+  "awakening_kaivon": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:kaivon-awakening",
+        "stream": true
+      }
+    ]
+  },
+  "both-edges_juche": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:juche-both-edges-1",
+        "stream": true
+      }
+    ]
+  },
+  "now-infinity_juche": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:juche-now-infinity",
+        "stream": true
+      }
+    ]
+  },
+  "yesterday_4ura_young-viridii": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:4ura-young-viridii-yesterday-ncs-release",
+        "stream": true
+      }
+    ]
+  },
+  "stream_juche": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:juche-stream",
+        "stream": true
+      }
+    ]
+  },
+  "miyako_juche": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:juche-miyako",
+        "stream": true
+      }
+    ]
   }
 }
