@@ -8,25 +8,25 @@ Download the New "Dark Mode" Texture Pack : https://www.mediafire.com/file/lasea
 
 *An integrated music player system!*
 
-**What's New in v1.3.4 :**
+**What's New in v1.4.6 :**
 
-5 Musics have been added :
-- Bot Fight - Everen Maxwell [NCS]
-- Arc Second - SLUMBERJACK & TINYKVT [TrapNation]
-- It's Not Too Late - Kaivon [TrapNation]
-- Moments - Gioni [TrapNation]
-- CNTRL - Paper Idol [TrapNation]
+8 Musics have been added :
+
+- Symbolism pt.III - Electro-Light [NCS]
+- Survive - Axel Oliver, THEBOYWITHSPEC [NCS]
+- Yesterday - 4URA & Young Viridii [NCS]
+- Awakening - Kaivon [TrapNation]
+- Both Edges - Juche [TrapNation]
+- Now Infinity - Juche [TrapNation]
+- Stream - Juche [TrapNation]
+- Miyako - Juche [TrapNation]
 
 News, Improvements and Patches :
-- New Mod Icon!
-- [New] TrapNation is part of the Mod!
-- [New] Block TrapNatioon added!
-- [New] New UI for TrapNation Credits!
-- [New] Command /trapnationmusic added!
-- [New] Command /trapnationcredit added!
-- [New] Command /ncscredit added!
-- [Improvement] Command /music has been replaced by /ncsmusic.
-- [Improvement] Now when you break the NCS Block, the music stops.
-- [Improvement] Added a text "(New)" in the "Music List" menu.
-- [Fix] When right-clicking on the TrapNation Block nothing happens.
-- [Fix] The game display an error message.
+
+- [New] A 5th page of "Credit NCS" has been added.
+- [New] A 2nd page of "Credit TrapNation" has been added.
+- [New] A 3rd page of "TrapNation Music Gallery" has been added.
+- [Improvement] The NCS Block Craft has been changed !
+- [Improvement] The Craft of the TrapNation Block has been changed!
+- [Fix] The "Credit" page of TrapNation was not up to date.
+- [Fix] Fixed some bugs on the interfaces
