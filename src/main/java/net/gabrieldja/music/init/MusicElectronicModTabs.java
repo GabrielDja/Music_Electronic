@@ -4,9 +4,6 @@
  */
 package net.gabrieldja.music.init;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -21,7 +18,7 @@ public class MusicElectronicModTabs {
 				return new ItemStack(MusicElectronicModItems.NCS_LOGO.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return true;
 			}
@@ -32,7 +29,7 @@ public class MusicElectronicModTabs {
 				return new ItemStack(MusicElectronicModItems.TRAP_NATION_LOGO.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}

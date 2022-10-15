@@ -5,7 +5,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
@@ -96,19 +95,19 @@ public class CreditPage3Screen extends AbstractContainerScreen<CreditPage3Menu> 
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 144, 30, 20, new TextComponent(">"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 144, 30, 20, Component.literal(">"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new CreditPage3ButtonMessage(0, x, y, z));
 				CreditPage3ButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 9, 30, 20, new TextComponent("x"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 9, 30, 20, Component.literal("x"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new CreditPage3ButtonMessage(1, x, y, z));
 				CreditPage3ButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 221, this.topPos + 144, 30, 20, new TextComponent("<"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 221, this.topPos + 144, 30, 20, Component.literal("<"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new CreditPage3ButtonMessage(2, x, y, z));
 				CreditPage3ButtonMessage.handleButtonAction(entity, 2, x, y, z);

@@ -8,5 +8,6 @@
     "south": "music_electronic:blocks/trapnation_block_side",
     "west": "music_electronic:blocks/trapnation_block_side",
     "particle": "music_electronic:blocks/ncs_block_bottom"
-  }
+  },
+  "render_type": "solid"
 }

@@ -5,7 +5,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
@@ -75,11 +74,11 @@ public class TrapNationMusicListPage3Screen extends AbstractContainerScreen<Trap
 		this.font.draw(poseStack, "TrapNation List", 9, 6, -39424);
 		this.font.draw(poseStack, "-----------------", 9, 15, -16777216);
 		this.font.draw(poseStack, "Miyako", 63, 51, -16777216);
-		this.font.draw(poseStack, "...", 63, 78, -16777216);
+		this.font.draw(poseStack, "Looking For Us", 63, 78, -16777216);
 		this.font.draw(poseStack, "...", 63, 105, -16777216);
 		this.font.draw(poseStack, "...", 63, 132, -16777216);
 		this.font.draw(poseStack, "3 / 3", 9, 177, -16777216);
-		this.font.draw(poseStack, "(New)", 108, 51, -13408513);
+		this.font.draw(poseStack, "(New)", 153, 78, -13408513);
 	}
 
 	@Override
@@ -92,43 +91,47 @@ public class TrapNationMusicListPage3Screen extends AbstractContainerScreen<Trap
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 42, 46, 20, new TextComponent("Play"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 42, 46, 20, Component.literal("Play"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListPage3ButtonMessage(0, x, y, z));
 				TrapNationMusicListPage3ButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 117, this.topPos + 6, 77, 20, new TextComponent("Stop Music"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 117, this.topPos + 6, 77, 20, Component.literal("Stop Music"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListPage3ButtonMessage(1, x, y, z));
 				TrapNationMusicListPage3ButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 207, this.topPos + 6, 30, 20, new TextComponent("x"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 207, this.topPos + 6, 30, 20, Component.literal("x"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListPage3ButtonMessage(2, x, y, z));
 				TrapNationMusicListPage3ButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 69, 46, 20, new TextComponent("Play"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 69, 46, 20, Component.literal("Play"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListPage3ButtonMessage(3, x, y, z));
+				TrapNationMusicListPage3ButtonMessage.handleButtonAction(entity, 3, x, y, z);
+			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 99, this.topPos + 168, 56, 20, new TextComponent("Credit"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 99, this.topPos + 168, 56, 20, Component.literal("Credit"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListPage3ButtonMessage(4, x, y, z));
 				TrapNationMusicListPage3ButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 96, 46, 20, new TextComponent("Play"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 96, 46, 20, Component.literal("Play"), e -> {
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 123, 46, 20, new TextComponent("Play"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 123, 46, 20, Component.literal("Play"), e -> {
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 162, this.topPos + 168, 30, 20, new TextComponent(">"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 162, this.topPos + 168, 30, 20, Component.literal(">"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListPage3ButtonMessage(7, x, y, z));
 				TrapNationMusicListPage3ButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 63, this.topPos + 168, 30, 20, new TextComponent("<"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 63, this.topPos + 168, 30, 20, Component.literal("<"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListPage3ButtonMessage(8, x, y, z));
 				TrapNationMusicListPage3ButtonMessage.handleButtonAction(entity, 8, x, y, z);

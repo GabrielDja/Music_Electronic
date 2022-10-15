@@ -322,5 +322,14 @@
         "stream": true
       }
     ]
+  },
+  "looking-for-us_juche": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:juche-looking-for-us",
+        "stream": true
+      }
+    ]
   }
 }

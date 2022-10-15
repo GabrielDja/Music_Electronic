@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[43,)"
 license="All Rights Reserved"
 
 [[mods]]
 modId="music_electronic"
-version="1.4.6"
+version="1.5.8"
 displayName="Music Electronic"
 credits="NCS, TrapNation and GabrielDja"
 displayURL="https://gabrieldjalayer.wixsite.com/gabrieldja-gaming-yt"
@@ -17,7 +17,7 @@ Add lots of NCS and TrapNation music to Minecraft!!!
 [[dependencies.music_electronic]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
 

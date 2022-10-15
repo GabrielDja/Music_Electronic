@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.gabrieldja.music.world.inventory.TrapNationMusicListPage3Menu;
 import net.gabrieldja.music.procedures.TrapNationListPlayMiyakoProcedure;
+import net.gabrieldja.music.procedures.TrapNationListPlayLookingForUsProcedure;
 import net.gabrieldja.music.procedures.SwitchTrapNationMusicListPage3ToTrapNationMusicListPage2Procedure;
 import net.gabrieldja.music.procedures.SwitchTrapNationMusicList2ToTrapNationMusicListProcedure;
 import net.gabrieldja.music.procedures.SwitchTrapNationListToTrapNationCreditProcedure;
@@ -78,6 +79,10 @@ public class TrapNationMusicListPage3ButtonMessage {
 		if (buttonID == 2) {
 
 			CloseUIProcedure.execute(entity);
+		}
+		if (buttonID == 3) {
+
+			TrapNationListPlayLookingForUsProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
 

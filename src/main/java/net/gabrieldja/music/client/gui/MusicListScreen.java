@@ -5,7 +5,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
@@ -91,55 +90,55 @@ public class MusicListScreen extends AbstractContainerScreen<MusicListMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 42, 46, 20, new TextComponent("Play"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 42, 46, 20, Component.literal("Play"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListButtonMessage(0, x, y, z));
 				MusicListButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 117, this.topPos + 6, 77, 20, new TextComponent("Stop Music"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 117, this.topPos + 6, 77, 20, Component.literal("Stop Music"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListButtonMessage(1, x, y, z));
 				MusicListButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 207, this.topPos + 6, 30, 20, new TextComponent("x"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 207, this.topPos + 6, 30, 20, Component.literal("x"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListButtonMessage(2, x, y, z));
 				MusicListButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 69, 46, 20, new TextComponent("Play"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 69, 46, 20, Component.literal("Play"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListButtonMessage(3, x, y, z));
 				MusicListButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 99, this.topPos + 168, 56, 20, new TextComponent("Credit"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 99, this.topPos + 168, 56, 20, Component.literal("Credit"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListButtonMessage(4, x, y, z));
 				MusicListButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 96, 46, 20, new TextComponent("Play"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 96, 46, 20, Component.literal("Play"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListButtonMessage(5, x, y, z));
 				MusicListButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 123, 46, 20, new TextComponent("Play"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 123, 46, 20, Component.literal("Play"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListButtonMessage(6, x, y, z));
 				MusicListButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 162, this.topPos + 168, 30, 20, new TextComponent(">"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 162, this.topPos + 168, 30, 20, Component.literal(">"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListButtonMessage(7, x, y, z));
 				MusicListButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 63, this.topPos + 168, 30, 20, new TextComponent("<"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 63, this.topPos + 168, 30, 20, Component.literal("<"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new MusicListButtonMessage(8, x, y, z));
 				MusicListButtonMessage.handleButtonAction(entity, 8, x, y, z);

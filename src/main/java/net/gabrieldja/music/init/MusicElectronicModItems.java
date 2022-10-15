@@ -31,6 +31,7 @@ import net.gabrieldja.music.item.NewsToMeItem;
 import net.gabrieldja.music.item.NCSLogoItem;
 import net.gabrieldja.music.item.MomentsItem;
 import net.gabrieldja.music.item.MiyakoItem;
+import net.gabrieldja.music.item.LookingForUsItem;
 import net.gabrieldja.music.item.LiveALieItem;
 import net.gabrieldja.music.item.LetMeGoItem;
 import net.gabrieldja.music.item.ItsNotTooLateItem;
@@ -95,6 +96,7 @@ public class MusicElectronicModItems {
 	public static final RegistryObject<Item> YESTERDAY = REGISTRY.register("yesterday", () -> new YesterdayItem());
 	public static final RegistryObject<Item> STREAM = REGISTRY.register("stream", () -> new StreamItem());
 	public static final RegistryObject<Item> MIYAKO = REGISTRY.register("miyako", () -> new MiyakoItem());
+	public static final RegistryObject<Item> LOOKING_FOR_US = REGISTRY.register("looking_for_us", () -> new LookingForUsItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

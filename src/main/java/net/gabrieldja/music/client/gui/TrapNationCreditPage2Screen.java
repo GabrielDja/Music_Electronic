@@ -5,7 +5,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
@@ -78,7 +77,7 @@ public class TrapNationCreditPage2Screen extends AbstractContainerScreen<TrapNat
 		this.font.draw(poseStack, "----------------------------------", 50, 18, -16777216);
 		this.font.draw(poseStack, "Stream : Juche", 14, 54, -16777216);
 		this.font.draw(poseStack, "Miyako : Juche", 14, 72, -16777216);
-		this.font.draw(poseStack, "...", 14, 90, -16777216);
+		this.font.draw(poseStack, "Looking For Us : Juche", 14, 90, -16777216);
 		this.font.draw(poseStack, "TrapNation", 5, 153, -16777114);
 		this.font.draw(poseStack, "...", 14, 108, -16777216);
 		this.font.draw(poseStack, "...", 14, 126, -16777216);
@@ -94,19 +93,19 @@ public class TrapNationCreditPage2Screen extends AbstractContainerScreen<TrapNat
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 144, 30, 20, new TextComponent(">"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 144, 30, 20, Component.literal(">"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationCreditPage2ButtonMessage(0, x, y, z));
 				TrapNationCreditPage2ButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 9, 30, 20, new TextComponent("x"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 257, this.topPos + 9, 30, 20, Component.literal("x"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationCreditPage2ButtonMessage(1, x, y, z));
 				TrapNationCreditPage2ButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}));
-		this.addRenderableWidget(new Button(this.leftPos + 221, this.topPos + 144, 30, 20, new TextComponent("<"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 221, this.topPos + 144, 30, 20, Component.literal("<"), e -> {
 			if (true) {
 				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationCreditPage2ButtonMessage(2, x, y, z));
 				TrapNationCreditPage2ButtonMessage.handleButtonAction(entity, 2, x, y, z);

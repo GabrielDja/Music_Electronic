@@ -27,6 +27,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.gabrieldja.music.init.MusicElectronicModTabs;
+import net.gabrieldja.music.init.MusicElectronicModSounds;
+import net.gabrieldja.music.init.MusicElectronicModMenus;
 import net.gabrieldja.music.init.MusicElectronicModItems;
 import net.gabrieldja.music.init.MusicElectronicModBlocks;
 
@@ -46,8 +48,11 @@ public class MusicElectronicMod {
 	public MusicElectronicMod() {
 		MusicElectronicModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		MusicElectronicModSounds.REGISTRY.register(bus);
 		MusicElectronicModBlocks.REGISTRY.register(bus);
 		MusicElectronicModItems.REGISTRY.register(bus);
+
+		MusicElectronicModMenus.REGISTRY.register(bus);
 
 	}
 

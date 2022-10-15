@@ -1,6 +1,6 @@
 
 /*
- *    MCreator note: This file will be REGENERATED on each build.
+ *	MCreator note: This file will be REGENERATED on each build.
  */
 package net.gabrieldja.music.init;
 
@@ -34,23 +34,23 @@ public class MusicElectronicModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(MusicElectronicModMenus.CREDIT, CreditScreen::new);
-			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST, MusicListScreen::new);
-			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_2, MusicListPage2Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.CREDIT_PAGE_2, CreditPage2Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_3, MusicListPage3Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.CREDIT_PAGE_3, CreditPage3Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_4, MusicListPage4Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_5, MusicListPage5Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.CREDIT_PAGE_4, CreditPage4Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_6, MusicListPage6Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_7, MusicListPage7Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST, TrapNationMusicListScreen::new);
-			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_CREDIT, TrapNationCreditScreen::new);
-			MenuScreens.register(MusicElectronicModMenus.CREDIT_PAGE_5, CreditPage5Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST_2, TrapNationMusicList2Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_CREDIT_PAGE_2, TrapNationCreditPage2Screen::new);
-			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST_PAGE_3, TrapNationMusicListPage3Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.CREDIT.get(), CreditScreen::new);
+			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST.get(), MusicListScreen::new);
+			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_2.get(), MusicListPage2Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.CREDIT_PAGE_2.get(), CreditPage2Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_3.get(), MusicListPage3Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.CREDIT_PAGE_3.get(), CreditPage3Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_4.get(), MusicListPage4Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_5.get(), MusicListPage5Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.CREDIT_PAGE_4.get(), CreditPage4Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_6.get(), MusicListPage6Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.MUSIC_LIST_PAGE_7.get(), MusicListPage7Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST.get(), TrapNationMusicListScreen::new);
+			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_CREDIT.get(), TrapNationCreditScreen::new);
+			MenuScreens.register(MusicElectronicModMenus.CREDIT_PAGE_5.get(), CreditPage5Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST_2.get(), TrapNationMusicList2Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_CREDIT_PAGE_2.get(), TrapNationCreditPage2Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST_PAGE_3.get(), TrapNationMusicListPage3Screen::new);
 		});
 	}
 }
