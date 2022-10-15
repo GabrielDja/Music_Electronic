@@ -23,6 +23,7 @@ import net.gabrieldja.music.item.TakeMeAwayItem;
 import net.gabrieldja.music.item.SymbolismPtIIIItem;
 import net.gabrieldja.music.item.SurviveItem;
 import net.gabrieldja.music.item.StreamItem;
+import net.gabrieldja.music.item.SpamItem;
 import net.gabrieldja.music.item.SlowDownItem;
 import net.gabrieldja.music.item.RunningAwayItem;
 import net.gabrieldja.music.item.NowInfinityItem;
@@ -36,6 +37,7 @@ import net.gabrieldja.music.item.LiveALieItem;
 import net.gabrieldja.music.item.LetMeGoItem;
 import net.gabrieldja.music.item.ItsNotTooLateItem;
 import net.gabrieldja.music.item.InvinciblePtIIItem;
+import net.gabrieldja.music.item.IFeelItItem;
 import net.gabrieldja.music.item.HorizonItem;
 import net.gabrieldja.music.item.HeartlessItem;
 import net.gabrieldja.music.item.HealingItem;
@@ -51,6 +53,7 @@ import net.gabrieldja.music.item.BothEdgesItem;
 import net.gabrieldja.music.item.BotFightItem;
 import net.gabrieldja.music.item.BandAidItem;
 import net.gabrieldja.music.item.AwakeningItem;
+import net.gabrieldja.music.item.ArpItem;
 import net.gabrieldja.music.item.ArcSecondItem;
 import net.gabrieldja.music.MusicElectronicMod;
 
@@ -97,6 +100,9 @@ public class MusicElectronicModItems {
 	public static final RegistryObject<Item> STREAM = REGISTRY.register("stream", () -> new StreamItem());
 	public static final RegistryObject<Item> MIYAKO = REGISTRY.register("miyako", () -> new MiyakoItem());
 	public static final RegistryObject<Item> LOOKING_FOR_US = REGISTRY.register("looking_for_us", () -> new LookingForUsItem());
+	public static final RegistryObject<Item> SPAM = REGISTRY.register("spam", () -> new SpamItem());
+	public static final RegistryObject<Item> I_FEEL_IT = REGISTRY.register("i_feel_it", () -> new IFeelItItem());
+	public static final RegistryObject<Item> ARP = REGISTRY.register("arp", () -> new ArpItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

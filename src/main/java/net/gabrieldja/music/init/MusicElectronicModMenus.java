@@ -11,9 +11,11 @@ import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
 
+import net.gabrieldja.music.world.inventory.TrapNationMusicListPage4Menu;
 import net.gabrieldja.music.world.inventory.TrapNationMusicListPage3Menu;
 import net.gabrieldja.music.world.inventory.TrapNationMusicListMenu;
 import net.gabrieldja.music.world.inventory.TrapNationMusicList2Menu;
+import net.gabrieldja.music.world.inventory.TrapNationCreditPage3Menu;
 import net.gabrieldja.music.world.inventory.TrapNationCreditPage2Menu;
 import net.gabrieldja.music.world.inventory.TrapNationCreditMenu;
 import net.gabrieldja.music.world.inventory.MusicListPage7Menu;
@@ -65,4 +67,8 @@ public class MusicElectronicModMenus {
 			() -> IForgeMenuType.create(TrapNationCreditPage2Menu::new));
 	public static final RegistryObject<MenuType<TrapNationMusicListPage3Menu>> TRAP_NATION_MUSIC_LIST_PAGE_3 = REGISTRY
 			.register("trap_nation_music_list_page_3", () -> IForgeMenuType.create(TrapNationMusicListPage3Menu::new));
+	public static final RegistryObject<MenuType<TrapNationMusicListPage4Menu>> TRAP_NATION_MUSIC_LIST_PAGE_4 = REGISTRY
+			.register("trap_nation_music_list_page_4", () -> IForgeMenuType.create(TrapNationMusicListPage4Menu::new));
+	public static final RegistryObject<MenuType<TrapNationCreditPage3Menu>> TRAP_NATION_CREDIT_PAGE_3 = REGISTRY.register("trap_nation_credit_page_3",
+			() -> IForgeMenuType.create(TrapNationCreditPage3Menu::new));
 }

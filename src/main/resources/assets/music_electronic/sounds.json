@@ -331,5 +331,32 @@
         "stream": true
       }
     ]
+  },
+  "juche_spam": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:juche-spam",
+        "stream": true
+      }
+    ]
+  },
+  "kaivon_i-feel-it": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:kaivon-i-feel-it",
+        "stream": true
+      }
+    ]
+  },
+  "kaivon_arp": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:kaivon-arp",
+        "stream": true
+      }
+    ]
   }
 }

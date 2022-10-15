@@ -13,6 +13,7 @@ import net.minecraft.core.BlockPos;
 
 import net.gabrieldja.music.world.inventory.TrapNationCreditPage2Menu;
 import net.gabrieldja.music.procedures.SwitchTrapNationCreditPage2ToTrapNationCreditProcedure;
+import net.gabrieldja.music.procedures.SwitchTrapNationCreditPage2ToTrapNationCreditPage3Procedure;
 import net.gabrieldja.music.procedures.CloseUIProcedure;
 import net.gabrieldja.music.MusicElectronicMod;
 
@@ -65,7 +66,7 @@ public class TrapNationCreditPage2ButtonMessage {
 			return;
 		if (buttonID == 0) {
 
-			SwitchTrapNationCreditPage2ToTrapNationCreditProcedure.execute(world, x, y, z, entity);
+			SwitchTrapNationCreditPage2ToTrapNationCreditPage3Procedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 1) {
 

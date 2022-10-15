@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "music_electronic:items/artworks-000224730985-8ox3f1-tx100"
+  }
+}

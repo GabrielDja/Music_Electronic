@@ -78,9 +78,6 @@ public class MusicListPage7Screen extends AbstractContainerScreen<MusicListPage7
 		this.font.draw(poseStack, "Survive", 63, 105, -16777216);
 		this.font.draw(poseStack, "Yesterday", 63, 132, -16777216);
 		this.font.draw(poseStack, "7 / 7", 9, 177, -16777216);
-		this.font.draw(poseStack, "(New)", 153, 78, -13408513);
-		this.font.draw(poseStack, "(New)", 108, 105, -13408513);
-		this.font.draw(poseStack, "(New)", 117, 132, -13408513);
 	}
 
 	@Override

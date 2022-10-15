@@ -75,10 +75,12 @@ public class TrapNationMusicListPage3Screen extends AbstractContainerScreen<Trap
 		this.font.draw(poseStack, "-----------------", 9, 15, -16777216);
 		this.font.draw(poseStack, "Miyako", 63, 51, -16777216);
 		this.font.draw(poseStack, "Looking For Us", 63, 78, -16777216);
-		this.font.draw(poseStack, "...", 63, 105, -16777216);
-		this.font.draw(poseStack, "...", 63, 132, -16777216);
-		this.font.draw(poseStack, "3 / 3", 9, 177, -16777216);
+		this.font.draw(poseStack, "Spam", 63, 105, -16777216);
+		this.font.draw(poseStack, "I Feel It", 63, 132, -16777216);
+		this.font.draw(poseStack, "3 / 4", 9, 177, -16777216);
 		this.font.draw(poseStack, "(New)", 153, 78, -13408513);
+		this.font.draw(poseStack, "(New)", 153, 105, -13408513);
+		this.font.draw(poseStack, "(New)", 153, 132, -13408513);
 	}
 
 	@Override
@@ -122,8 +124,16 @@ public class TrapNationMusicListPage3Screen extends AbstractContainerScreen<Trap
 			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 96, 46, 20, Component.literal("Play"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListPage3ButtonMessage(5, x, y, z));
+				TrapNationMusicListPage3ButtonMessage.handleButtonAction(entity, 5, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 9, this.topPos + 123, 46, 20, Component.literal("Play"), e -> {
+			if (true) {
+				MusicElectronicMod.PACKET_HANDLER.sendToServer(new TrapNationMusicListPage3ButtonMessage(6, x, y, z));
+				TrapNationMusicListPage3ButtonMessage.handleButtonAction(entity, 6, x, y, z);
+			}
 		}));
 		this.addRenderableWidget(new Button(this.leftPos + 162, this.topPos + 168, 30, 20, Component.literal(">"), e -> {
 			if (true) {

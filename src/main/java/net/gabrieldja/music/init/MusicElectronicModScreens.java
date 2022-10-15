@@ -12,9 +12,11 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.client.gui.screens.MenuScreens;
 
 import net.gabrieldja.music.client.gui.TrapNationMusicListScreen;
+import net.gabrieldja.music.client.gui.TrapNationMusicListPage4Screen;
 import net.gabrieldja.music.client.gui.TrapNationMusicListPage3Screen;
 import net.gabrieldja.music.client.gui.TrapNationMusicList2Screen;
 import net.gabrieldja.music.client.gui.TrapNationCreditScreen;
+import net.gabrieldja.music.client.gui.TrapNationCreditPage3Screen;
 import net.gabrieldja.music.client.gui.TrapNationCreditPage2Screen;
 import net.gabrieldja.music.client.gui.MusicListScreen;
 import net.gabrieldja.music.client.gui.MusicListPage7Screen;
@@ -51,6 +53,8 @@ public class MusicElectronicModScreens {
 			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST_2.get(), TrapNationMusicList2Screen::new);
 			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_CREDIT_PAGE_2.get(), TrapNationCreditPage2Screen::new);
 			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST_PAGE_3.get(), TrapNationMusicListPage3Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_MUSIC_LIST_PAGE_4.get(), TrapNationMusicListPage4Screen::new);
+			MenuScreens.register(MusicElectronicModMenus.TRAP_NATION_CREDIT_PAGE_3.get(), TrapNationCreditPage3Screen::new);
 		});
 	}
 }

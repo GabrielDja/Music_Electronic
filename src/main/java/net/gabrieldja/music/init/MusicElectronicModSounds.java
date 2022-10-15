@@ -97,4 +97,10 @@ public class MusicElectronicModSounds {
 			() -> new SoundEvent(new ResourceLocation("music_electronic", "miyako_juche")));
 	public static final RegistryObject<SoundEvent> LOOKING_FOR_US_JUCHE = REGISTRY.register("looking-for-us_juche",
 			() -> new SoundEvent(new ResourceLocation("music_electronic", "looking-for-us_juche")));
+	public static final RegistryObject<SoundEvent> JUCHE_SPAM = REGISTRY.register("juche_spam",
+			() -> new SoundEvent(new ResourceLocation("music_electronic", "juche_spam")));
+	public static final RegistryObject<SoundEvent> KAIVON_I_FEEL_IT = REGISTRY.register("kaivon_i-feel-it",
+			() -> new SoundEvent(new ResourceLocation("music_electronic", "kaivon_i-feel-it")));
+	public static final RegistryObject<SoundEvent> KAIVON_ARP = REGISTRY.register("kaivon_arp",
+			() -> new SoundEvent(new ResourceLocation("music_electronic", "kaivon_arp")));
 }

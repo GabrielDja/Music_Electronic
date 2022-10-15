@@ -12,10 +12,12 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import net.gabrieldja.music.world.inventory.TrapNationMusicListPage3Menu;
+import net.gabrieldja.music.procedures.TrapNationListPlaySpamProcedure;
 import net.gabrieldja.music.procedures.TrapNationListPlayMiyakoProcedure;
 import net.gabrieldja.music.procedures.TrapNationListPlayLookingForUsProcedure;
+import net.gabrieldja.music.procedures.TrapNationListPlayIFeelItProcedure;
+import net.gabrieldja.music.procedures.SwitchTrapNationMusicListPage3ToTrapNationMusicListPage4Procedure;
 import net.gabrieldja.music.procedures.SwitchTrapNationMusicListPage3ToTrapNationMusicListPage2Procedure;
-import net.gabrieldja.music.procedures.SwitchTrapNationMusicList2ToTrapNationMusicListProcedure;
 import net.gabrieldja.music.procedures.SwitchTrapNationListToTrapNationCreditProcedure;
 import net.gabrieldja.music.procedures.StopMusicProcedure;
 import net.gabrieldja.music.procedures.CloseUIProcedure;
@@ -88,9 +90,17 @@ public class TrapNationMusicListPage3ButtonMessage {
 
 			SwitchTrapNationListToTrapNationCreditProcedure.execute(world, x, y, z, entity);
 		}
+		if (buttonID == 5) {
+
+			TrapNationListPlaySpamProcedure.execute(world, x, y, z, entity);
+		}
+		if (buttonID == 6) {
+
+			TrapNationListPlayIFeelItProcedure.execute(world, x, y, z, entity);
+		}
 		if (buttonID == 7) {
 
-			SwitchTrapNationMusicList2ToTrapNationMusicListProcedure.execute(world, x, y, z, entity);
+			SwitchTrapNationMusicListPage3ToTrapNationMusicListPage4Procedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 8) {
 
