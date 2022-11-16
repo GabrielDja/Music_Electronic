@@ -103,4 +103,16 @@ public class MusicElectronicModSounds {
 			() -> new SoundEvent(new ResourceLocation("music_electronic", "kaivon_i-feel-it")));
 	public static final RegistryObject<SoundEvent> KAIVON_ARP = REGISTRY.register("kaivon_arp",
 			() -> new SoundEvent(new ResourceLocation("music_electronic", "kaivon_arp")));
+	public static final RegistryObject<SoundEvent> MIDDLE_OF_THE_NIGHT_ELLEY_DUHE = REGISTRY.register("middle-of-the-night_elley-duhe",
+			() -> new SoundEvent(new ResourceLocation("music_electronic", "middle-of-the-night_elley-duhe")));
+	public static final RegistryObject<SoundEvent> VOICES_SIDEWALKS_AND_SKELETONS = REGISTRY.register("voices_sidewalks_and_skeletons",
+			() -> new SoundEvent(new ResourceLocation("music_electronic", "voices_sidewalks_and_skeletons")));
+	public static final RegistryObject<SoundEvent> MIDNIGHT_SADNESS_BESOMORPH = REGISTRY.register("midnight-sadness_besomorph",
+			() -> new SoundEvent(new ResourceLocation("music_electronic", "midnight-sadness_besomorph")));
+	public static final RegistryObject<SoundEvent> THRESHOLD_NGHTMRE = REGISTRY.register("threshold_nghtmre",
+			() -> new SoundEvent(new ResourceLocation("music_electronic", "threshold_nghtmre")));
+	public static final RegistryObject<SoundEvent> SHADY_INTENTIONS_NGHTMRE_ZEDS_DEAD = REGISTRY.register("shady-intentions_nghtmre_zeds-dead",
+			() -> new SoundEvent(new ResourceLocation("music_electronic", "shady-intentions_nghtmre_zeds-dead")));
+	public static final RegistryObject<SoundEvent> ALL_THE_NIGHS_SAN_HOLO = REGISTRY.register("all-the-nighs_san-holo",
+			() -> new SoundEvent(new ResourceLocation("music_electronic", "all-the-nighs_san-holo")));
 }

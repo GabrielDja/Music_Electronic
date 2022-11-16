@@ -77,7 +77,7 @@ public class TrapNationMusicList2Screen extends AbstractContainerScreen<TrapNati
 		this.font.draw(poseStack, "Both Edges", 63, 78, -16777216);
 		this.font.draw(poseStack, "Now Infinity", 63, 105, -16777216);
 		this.font.draw(poseStack, "Stream", 63, 132, -16777216);
-		this.font.draw(poseStack, "2 / 4", 9, 177, -16777216);
+		this.font.draw(poseStack, "2 / 5", 9, 177, -16777216);
 	}
 
 	@Override

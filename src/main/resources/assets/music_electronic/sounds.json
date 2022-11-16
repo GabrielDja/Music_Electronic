@@ -358,5 +358,59 @@
         "stream": true
       }
     ]
+  },
+  "middle-of-the-night_elley-duhe": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:elley-duhe-middle-of-the-night-nitti-gritti-remix",
+        "stream": true
+      }
+    ]
+  },
+  "voices_sidewalks_and_skeletons": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:sidewalks-and-skeletons-voices",
+        "stream": true
+      }
+    ]
+  },
+  "midnight-sadness_besomorph": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:besomorph-midnight-sadness-feat-riell-wisner-royalty-free",
+        "stream": true
+      }
+    ]
+  },
+  "threshold_nghtmre": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:nghtmre-threshold",
+        "stream": true
+      }
+    ]
+  },
+  "shady-intentions_nghtmre_zeds-dead": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:nghtmre-zeds-dead-shady-intentions-feat-tori-levett",
+        "stream": true
+      }
+    ]
+  },
+  "all-the-nighs_san-holo": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "music_electronic:san-holo-all-the-highs",
+        "stream": true
+      }
+    ]
   }
 }

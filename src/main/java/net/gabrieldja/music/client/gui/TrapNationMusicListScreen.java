@@ -77,7 +77,7 @@ public class TrapNationMusicListScreen extends AbstractContainerScreen<TrapNatio
 		this.font.draw(poseStack, "Its Not Too Late", 63, 78, -16777216);
 		this.font.draw(poseStack, "Moments", 63, 105, -16777216);
 		this.font.draw(poseStack, "CNTRL", 63, 132, -16777216);
-		this.font.draw(poseStack, "1 / 4", 9, 177, -16777216);
+		this.font.draw(poseStack, "1 / 5", 9, 177, -16777216);
 	}
 
 	@Override

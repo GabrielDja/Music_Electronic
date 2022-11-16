@@ -73,7 +73,7 @@ public class TrapNationCreditPage2Screen extends AbstractContainerScreen<TrapNat
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Mod Created by GabrielDja", 77, 9, -16776961);
 		this.font.draw(poseStack, "Now Infinity : Juche", 14, 36, -16777216);
-		this.font.draw(poseStack, "2 / 3", 140, 153, -16777216);
+		this.font.draw(poseStack, "2 / 4", 140, 153, -16777216);
 		this.font.draw(poseStack, "----------------------------------", 50, 18, -16777216);
 		this.font.draw(poseStack, "Stream : Juche", 14, 54, -16777216);
 		this.font.draw(poseStack, "Miyako : Juche", 14, 72, -16777216);

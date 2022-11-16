@@ -16,7 +16,7 @@ import net.gabrieldja.music.procedures.TrapNationListPlayMomentsProcedure;
 import net.gabrieldja.music.procedures.TrapNationListPlayItsNotTooLateProcedure;
 import net.gabrieldja.music.procedures.TrapNationListPlayCNTRLProcedure;
 import net.gabrieldja.music.procedures.TrapNationListPlayArcSecondProcedure;
-import net.gabrieldja.music.procedures.SwitchTrapNationMusicListPage2ToTrapNationMusicListPage3Procedure;
+import net.gabrieldja.music.procedures.SwitchTrapNationMusicListPage5Procedure;
 import net.gabrieldja.music.procedures.SwitchTrapNationListToTrapNationCreditProcedure;
 import net.gabrieldja.music.procedures.SwitchTrapNationListMusicToTrapNationListMusic2Procedure;
 import net.gabrieldja.music.procedures.StopMusicProcedure;
@@ -104,7 +104,7 @@ public class TrapNationMusicListButtonMessage {
 		}
 		if (buttonID == 8) {
 
-			SwitchTrapNationMusicListPage2ToTrapNationMusicListPage3Procedure.execute(world, x, y, z, entity);
+			SwitchTrapNationMusicListPage5Procedure.execute(world, x, y, z, entity);
 		}
 	}
 

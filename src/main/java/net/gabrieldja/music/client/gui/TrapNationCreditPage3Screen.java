@@ -73,14 +73,14 @@ public class TrapNationCreditPage3Screen extends AbstractContainerScreen<TrapNat
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Mod Created by GabrielDja", 77, 9, -16776961);
 		this.font.draw(poseStack, "Arp : Kaivon", 14, 36, -16777216);
-		this.font.draw(poseStack, "3 / 3", 140, 153, -16777216);
+		this.font.draw(poseStack, "3 / 4", 140, 153, -16777216);
 		this.font.draw(poseStack, "----------------------------------", 50, 18, -16777216);
-		this.font.draw(poseStack, "...", 14, 54, -16777216);
-		this.font.draw(poseStack, "...", 14, 72, -16777216);
-		this.font.draw(poseStack, "...", 14, 90, -16777216);
+		this.font.draw(poseStack, "Middle of the Night : Elley Duh\u00E9", 14, 54, -16777216);
+		this.font.draw(poseStack, "Voices : Sidewalks and Skeletons", 14, 72, -16777216);
+		this.font.draw(poseStack, "Midnight Sadness : Besomorph", 14, 90, -16777216);
 		this.font.draw(poseStack, "TrapNation", 5, 153, -16777114);
-		this.font.draw(poseStack, "...", 14, 108, -16777216);
-		this.font.draw(poseStack, "...", 14, 126, -16777216);
+		this.font.draw(poseStack, "All The Nighs : San Holo", 14, 108, -16777216);
+		this.font.draw(poseStack, "Shady Intentions : NGHTMRE & Zeds Dead", 14, 126, -16777216);
 	}
 
 	@Override

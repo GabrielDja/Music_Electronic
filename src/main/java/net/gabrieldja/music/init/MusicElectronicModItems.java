@@ -16,8 +16,10 @@ import net.minecraft.world.item.BlockItem;
 import net.gabrieldja.music.item.YesterdayItem;
 import net.gabrieldja.music.item.WhereItAllBeganItem;
 import net.gabrieldja.music.item.WhatTheHellItem;
+import net.gabrieldja.music.item.VoicesItem;
 import net.gabrieldja.music.item.VisionPtIIItem;
 import net.gabrieldja.music.item.TrapNationLogoItem;
+import net.gabrieldja.music.item.ThresholdItem;
 import net.gabrieldja.music.item.ThisTimeItem;
 import net.gabrieldja.music.item.TakeMeAwayItem;
 import net.gabrieldja.music.item.SymbolismPtIIIItem;
@@ -25,6 +27,7 @@ import net.gabrieldja.music.item.SurviveItem;
 import net.gabrieldja.music.item.StreamItem;
 import net.gabrieldja.music.item.SpamItem;
 import net.gabrieldja.music.item.SlowDownItem;
+import net.gabrieldja.music.item.ShadyIntentionsItem;
 import net.gabrieldja.music.item.RunningAwayItem;
 import net.gabrieldja.music.item.NowInfinityItem;
 import net.gabrieldja.music.item.NoRivalItem;
@@ -32,6 +35,8 @@ import net.gabrieldja.music.item.NewsToMeItem;
 import net.gabrieldja.music.item.NCSLogoItem;
 import net.gabrieldja.music.item.MomentsItem;
 import net.gabrieldja.music.item.MiyakoItem;
+import net.gabrieldja.music.item.MidnightSadnessItem;
+import net.gabrieldja.music.item.MiddleOfTheNightItem;
 import net.gabrieldja.music.item.LookingForUsItem;
 import net.gabrieldja.music.item.LiveALieItem;
 import net.gabrieldja.music.item.LetMeGoItem;
@@ -55,6 +60,7 @@ import net.gabrieldja.music.item.BandAidItem;
 import net.gabrieldja.music.item.AwakeningItem;
 import net.gabrieldja.music.item.ArpItem;
 import net.gabrieldja.music.item.ArcSecondItem;
+import net.gabrieldja.music.item.AllTheNighsItem;
 import net.gabrieldja.music.MusicElectronicMod;
 
 public class MusicElectronicModItems {
@@ -103,6 +109,12 @@ public class MusicElectronicModItems {
 	public static final RegistryObject<Item> SPAM = REGISTRY.register("spam", () -> new SpamItem());
 	public static final RegistryObject<Item> I_FEEL_IT = REGISTRY.register("i_feel_it", () -> new IFeelItItem());
 	public static final RegistryObject<Item> ARP = REGISTRY.register("arp", () -> new ArpItem());
+	public static final RegistryObject<Item> MIDDLE_OF_THE_NIGHT = REGISTRY.register("middle_of_the_night", () -> new MiddleOfTheNightItem());
+	public static final RegistryObject<Item> VOICES = REGISTRY.register("voices", () -> new VoicesItem());
+	public static final RegistryObject<Item> MIDNIGHT_SADNESS = REGISTRY.register("midnight_sadness", () -> new MidnightSadnessItem());
+	public static final RegistryObject<Item> ALL_THE_NIGHS = REGISTRY.register("all_the_nighs", () -> new AllTheNighsItem());
+	public static final RegistryObject<Item> SHADY_INTENTIONS = REGISTRY.register("shady_intentions", () -> new ShadyIntentionsItem());
+	public static final RegistryObject<Item> THRESHOLD = REGISTRY.register("threshold", () -> new ThresholdItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

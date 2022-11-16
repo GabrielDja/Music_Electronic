@@ -77,10 +77,7 @@ public class TrapNationMusicListPage3Screen extends AbstractContainerScreen<Trap
 		this.font.draw(poseStack, "Looking For Us", 63, 78, -16777216);
 		this.font.draw(poseStack, "Spam", 63, 105, -16777216);
 		this.font.draw(poseStack, "I Feel It", 63, 132, -16777216);
-		this.font.draw(poseStack, "3 / 4", 9, 177, -16777216);
-		this.font.draw(poseStack, "(New)", 153, 78, -13408513);
-		this.font.draw(poseStack, "(New)", 153, 105, -13408513);
-		this.font.draw(poseStack, "(New)", 153, 132, -13408513);
+		this.font.draw(poseStack, "3 / 5", 9, 177, -16777216);
 	}
 
 	@Override
